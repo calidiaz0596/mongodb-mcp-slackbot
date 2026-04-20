@@ -6,37 +6,8 @@
 
 ## 🏗️ Architecture
 
-```
-┌─────────────┐
-│   Slack     │
-│   Users     │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────────────┐
-│  Slack Bot (Socket  │
-│  Mode - Async)      │
-└──────┬──────────────┘
-       │
-       ▼
-┌─────────────────────┐
-│  LangGraph ReAct    │
-│  Agent Engine       │
-└──────┬──────────────┘
-       │
-       ├────────────────────┐
-       ▼                    ▼
-┌──────────────┐    ┌──────────────────┐
-│ AWS Bedrock  │    │  MongoDB MCP     │
-│ Claude 4.6   │    │  Server (npx)    │
-└──────────────┘    └──────────────────┘
-                            │
-                            ▼
-                    ┌──────────────────┐
-                    │ MongoDB Atlas    │
-                    │ Cluster          │
-                    └──────────────────┘
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c001262b-a84f-4784-8a01-3e5beb344a79" />
+
 
 ---
 

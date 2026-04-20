@@ -1,6 +1,6 @@
 # MongoDB Data Research Agent
 
-**Production-ready asynchronous Slack bot** that integrates LangGraph, AWS Bedrock (Claude Sonnet 4.6), and the MongoDB MCP server to answer infrastructure and database queries.
+**POC-ready asynchronous Slack bot** that integrates LangGraph, AWS Bedrock (Claude Sonnet 4.6), and the MongoDB MCP server to answer infrastructure and database queries.
 
 ---
 

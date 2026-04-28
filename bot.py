@@ -196,6 +196,7 @@ async def run_agent(user_prompt: str, say) -> None:
     3. Create LangGraph ReAct agent with system prompt
     4. Execute the reasoning loop
     5. Return the final response to Slack
+    6. Report the name of the MCP  tools and Agent skills you used to get the answer. 
     
     Args:
         user_prompt: The user's question or command
